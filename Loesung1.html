@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aufgabe 1</title>
+  </head>
+  <body>
+    <script>
+      "use strict";
+      function Spieler(name, feld) {
+        this.Name = name;
+        this.Feld = feld;
+      }
+      let Spieler1 = new Spieler("Katharina", 5);
+      for (let i in Spieler1) {
+        document.write(i + ": " + Spieler1[i] + "<br>");
+      }
+    </script>
+  </body>
+</html>
